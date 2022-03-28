@@ -1,0 +1,68 @@
+@import "reset.css";
+body
+{
+    background-color: #f6f9fc;
+    font-family: 'Pretendard Variable';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.canvas{
+    width: 700px;
+    height: 700px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(50, 50, 93, 0.1), 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+div#controls-wrap
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+div.controls-btns,div.controls-range
+{
+    margin-bottom: 30px;
+}
+div.controls-btns button
+{
+    all: unset;
+    cursor: pointer;
+    background-color: #ffffff;
+    padding: 5px 0px;
+    margin: 0px 5px;
+    width: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(50, 50, 93, 0.1), 0 1px 3px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    font-size: 14px;
+    color: rgba(0,0,0,0.5);
+}
+div.controls-btns button:hover
+{
+    color: rgba(0,0,0,1);
+}
+div.controls-btns button:active
+{
+    transform: scale(0.96);
+}
+div.controls-colors
+{
+    display: flex;
+}
+ div.controls-color
+{
+    width: 50px;
+    height: 50px;
+    margin: 0 -3px; 
+    box-shadow: 0px 4px 6px rgba(50, 50, 93, 0.1), 0 1px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    cursor: pointer;
+}
+div.controls-color:hover
+{
+    transform: scale(1.1);
+}
